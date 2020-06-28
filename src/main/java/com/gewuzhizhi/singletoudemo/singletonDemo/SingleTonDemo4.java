@@ -10,7 +10,7 @@ package com.gewuzhizhi.singletoudemo.singletonDemo;
 /**
  * 线程安全
  *
- * 使用静态内部类的好处是，不会随着类的加载而加载，而是在调用getInstance()方法是
+ * 使用静态内部类的好处是，不会随着类的加载而加载，而是在调用getInstance()方法时
  * 再加载，达到类似懒汉模式的效果，而这种方式是线程安全的
  */
 public class SingleTonDemo4 {
