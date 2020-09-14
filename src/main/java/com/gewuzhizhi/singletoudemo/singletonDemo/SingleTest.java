@@ -8,4 +8,7 @@ package com.gewuzhizhi.singletoudemo.singletonDemo;
  * @Version:
  */
 public class SingleTest {
+    public static void main(String[] args) {
+        System.out.println("测试");
+    }
 }
